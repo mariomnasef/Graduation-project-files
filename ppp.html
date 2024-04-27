@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+  <style>
+    * {
+      margin: 0;
+      padding: 1px;
+      box-sizing: border-box;
+      max-height: 700px;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: rgb(171, 212, 243);
+    }
+    
+    /* banner section styles */
+    .banner {
+      text-align: center;
+      background-color: #ffffff;
+      margin: 0 auto;
+    }
+    
+    .banner img {
+      max-width: 100%;
+      height: auto;
+    }
+    /* Contact form styles */
+    .contact-form {
+      padding: 50px 0;
+      margin: 0 6px;
+    }
+    
+    .form-container {
+      max-width: 40%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #7497cc;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-container label {
+      display:block;
+      font-weight: bold;
+    }
+    .form-container input, textarea{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      resize: vertical;
+    }
+    .submit-button {
+      padding: 10px 20px;
+      background-color: #d3e7d8;
+      border: none;
+      color: rgb(211, 118, 12);
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    
+    /* Contact info styles */
+    .contact-info {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #f7f7f7;
+    }
+    
+    .contact-info h2 {
+      margin-bottom: 20px;
+    }
+    
+    /* Footer styles */
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #333;
+      color: white;
+    }
+    /* Hamburger styles */
+    .hamburger {
+      display: none;
+      color: rgb(0, 0, 0);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    
+    /* Media queries for responsiveness */
+  
+.fa {
+  padding: 20px;
+  text-align:center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 60px;  
+ display: flex;
+ flex-direction:column;
+ justify-content:flex-start;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+    
+  
+  </style>
+</head>
+
+<body>
+
+	<!-- banner section -->
+	<section class="banner">
+		<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+      alt="Welcome to our Contact Us page">
+      
+    <h1>Get in Touch With Us</h1>
+    
+		<p>
+		We're here to answer any questions you may have.
+    </p>
+    
+  </section>
+  
+
+
+
+	<!-- Contact form -->
+	<section class="contact-form">
+		<div class="form-container">
+			<h2>Your Details</h2>
+			<form action="#" method="POST">
+
+				<label for="name">Name: </label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email: </label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="phone">Phone: </label>
+				<input type="tel" id="phone" name="phone">
+
+				<label for="message">Message: </label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+
+				<button type="submit" class="submit-button"><b>Submit</b></button>
+			</form>
+		</div>
+  </section>
+
+    <i class="fa fa-facebook"> </i> 
+    <i class="fa fa-twitter"> </i>
+    <i class="fa fa-linkedin"> </i>
+    <i class="fa fa-instagram"> </i>
+    <i class="fa fa-google"> </i>
+    <i class="fa fa-skype"> </i>
+
+    <div class="paragrah">
+<!-- Company contact info -->
+<section class="contact-info">
+    <h2>Contact Information</h2>
+    <address>
+        <b>EMMA programming</b><br>
+  
+       <b> Phone:</b> <a href="tel:1234567890">123-456-7890</a><br>
+       <b> Email:</b> <a href="COMPANY@example.com">COMPANY@example.com</a>
+    </address>
+</section>
+
+    </div>
+</body>
+
+</html>
